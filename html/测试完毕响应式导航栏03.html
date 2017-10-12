@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]-->
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+    <nav class="navbar  navbar-default navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!--.navbar-header——主要指定div元素为导航条组件包裹品牌图标及切换按钮；-->
+            <div class="navbar-header">
+                <!--.navbar-brand——设置导航条组件内的品牌图标；-->
+                <a href="#" class="navbar-brand"
+                   style="margin:0;padding:0;"><img src="../Images/1%20(1).jpg" style="width: 50px;height: 50px;" alt="导航栏实例"></a>
+                <!--collapse 隐藏内容-->
+                <!--data-toggle设置collapse表示折叠-->
+                <!--经过设置，这里的button表示缩放后的栏目集合-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <!--sr-only屏幕阅读器，针对视力障碍的人群-->
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse" id="navbar-collapse">
+                <!--navbar-left/navbar-right这个决定导航栏文字的居左还是居右-->
+                <ul class="nav navbar-nav navbar-right">
+                    <!--span元素里的这4个class都是boostrap里的图标
+                    class="glyphicon glyphicon-home"
+                    class="glyphicon glyphicon-list"
+                    class="glyphicon glyphicon-fire"
+                    class="glyphicon glyphicon-question-sign"-->
+                        <li><a href="# ">Home</a></li>
+                        <li><a href="# ">About</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Support</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-home">首页</span></a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-list">咨询</span></a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-fire">案例</span></a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-question-sign">关于</span></a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+</body>
+</html>

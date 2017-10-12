@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+    <title>图标菜单按钮组件</title>
+</head>
+<body>
+<p class="bg-danger">boostrap上的263种图标</p>
+<!--//使用小图标-->
+<i class="glyphicon glyphicon-star"></i>
+<span class="glyphicon glyphicon-star">基于glyphicon的类glyphicon-star小图标</span>
+<!--//也可以结合按钮-->
+<button class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-star">基于glyphiconglyphicon-star类的按钮</span>
+</button>
+<button class="btn btn-default btn">
+    <span class="glyphicon glyphicon-apple">基于glyphicon glyphicon-apple类的按钮</span>
+</button>
+<button class="btn btn-default btn-sm">
+    <span class="glyphicon glyphicon-align-center">基于glyphicon glyphicon-align-center类的按钮</span>
+</button>
+<button class="btn btn-default btn-xs">
+    <span class="glyphicon glyphicon-adjust">基于glyphicon glyphicon-adjust类的按钮</span>
+</button>
+<!--下拉菜单-->
+<p class="bg-danger">下拉菜单</p>
+<p>下拉菜单基本格式</p>
+<div class="dropdown">
+    <button class="btn btn-default" data-toggle="dropdown">
+        下拉菜单
+        <!--caret表示箭头，可上可下-->
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">资讯</a></li>
+        <li><a href="#">产品</a></li>
+        <li><a href="#">关于</a></li>
+    </ul>
+</div>
+
+<p>上拉菜单</p>
+<div class="dropup">
+    <button class="btn btn-default" data-toggle="dropdown">
+        上拉菜单
+        <!--caret表示箭头，可上可下-->
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">资讯</a></li>
+        <li><a href="#">产品</a></li>
+        <li><a href="#">关于</a></li>
+    </ul>
+</div>
+
+<p>菜单项居右对齐</p>
+<div class="dropdown">
+    <button class="btn btn-default" data-toggle="dropdown">
+        菜单项居右对齐
+        <!--caret表示箭头，可上可下-->
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-right">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">资讯</a></li>
+        <li><a href="#">产品</a></li>
+        <li><a href="#">关于</a></li>
+    </ul>
+</div>
+
+<p>下拉菜单默认显示</p>
+<div class="dropdown open">
+    <button class="btn btn-default" data-toggle="dropdown">
+        下拉菜单默认显示
+        <!--caret表示箭头，可上可下-->
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        <li class="dropdown-header"><a href="#">首页</a></li>
+        <li class="divider"><a href="#">分割线</a></li>
+        <li><a href="#">产品</a></li>
+        <li  class="disabled"><a href="#">关于</a></li>
+    </ul>
+</div>
+
+<p>按钮组件</p>
+<p>按钮组件</p>
+<p>按钮组件</p>
+<p>按钮组件</p>
+<p>按钮组件</p>
+
+<p>下拉菜单</p>
+<div class="btn-group">
+    <button type="button" class="btn btn-default dropdown-toggle"
+            data-toggle="dropdown">
+        下拉菜单
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">资讯</a></li>
+        <li><a href="#">产品</a></li>
+        <li><a href="#">关于</a></li>
+    </ul>
+</div>
+
+<div class="btn-group">
+    <button type="button" class="btn btn-default">下拉菜单</button>
+    <button type="button" class="btn btn-default dropdown-toggle"
+            data-toggle="dropdown">
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">资讯</a></li>
+        <li><a href="#">产品</a></li>
+        <li><a href="#">关于</a></li>
+    </ul>
+</div>
+
+
+</body>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+</html>

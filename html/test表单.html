@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+    <style>
+        .a {
+            height: 100px;
+            background-color: #eee;
+            border:1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form class="form-inline">
+            <div class="form-group">
+                <label>电子邮件</label>
+                <input type="email" class="form-control" placeholder="请输入您的电子邮件">
+            </div>
+
+            <div class="form-group">
+                <label>密码</label>
+                <input type="password" class="form-control" placeholder="请输入您的密码">
+            </div>
+
+            <div class="input-group">
+                <div class="input-group-addon">￥</div>
+                <input type="text" class="form-control" placeholder="请输入您的价格">
+                <div class="input-group-addon">.00</div>
+            </div>
+        </form>
+
+
+        <!--水平排列-->
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label>电子邮件</label>
+                <input type="email" class="form-control" placeholder="请输入您的电子邮件">
+            </div>
+
+            <div class="form-group">
+                <label>密码</label>
+                <input type="password" class="form-control" placeholder="请输入您的密码">
+            </div>
+
+            <div class="input-group">
+                <div class="input-group-addon">￥</div>
+                <input type="text" class="form-control" placeholder="请输入您的价格">
+                <div class="input-group-addon">.00</div>
+            </div>
+
+            <div class="checkbox-inline">
+                <label>
+                    <input type="checkbox" disabled>体育
+                </label>
+            </div>
+            <div class="checkbox-inline">
+                <label>
+                    <input type="checkbox">体育
+                </label>
+            </div>
+        </form>
+
+        <!---->
+    </div>
+<!--                                        栅格系统                                        -->
+    栅格系统
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1 a">1</div>
+            <div class="col-md-1 a">2</div>
+            <div class="col-md-1 a">3</div>
+            <div class="col-md-1 a">4</div>
+            <div class="col-md-1 a">5</div>
+            <div class="col-md-1 a">6</div>
+            <div class="col-md-1 a">7</div>
+            <div class="col-md-1 a">8</div>
+            <div class="col-md-1 a">9</div>
+            <div class="col-md-1 a">10</div>
+            <div class="col-md-1 a">11</div>
+            <div class="col-md-1 a">12</div>
+        </div>
+    </div>
+<!--                                        栅格系统2                                       -->
+    栅格系统2
+    <div class="row">
+        <div class="col-md-4 a">1-4</div>
+        <div class="col-md-4 a">5-8</div>
+        <div class="col-md-4 a">9-12</div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 a">1-8</div>
+        <div class="col-md-4 a">9-12</div>
+    </div>
+<!--                                        栅格系统3                                       -->
+    栅格系统3
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 a">4</div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 a">4</div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 a">4</div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 a">4</div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 a">4</div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 a">4</div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 a">4</div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 a">4</div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 a">4</div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 a">4</div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 a">4</div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 a">4</div>
+        </div>
+    </div>
+<!--设置列偏移，让中间保持空隙-->
+    设置列偏移，让中间保持空隙
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 a">8</div>
+            <div class="col-md-3 col-md-offset-1 a">3</div>
+        </div>
+    </div>
+<!--嵌套-->
+    嵌套
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 a">
+                <div class="col-md-8 a">1-8</div>
+                <div class="col-md-4 a">9-12</div>
+            </div>
+            <div class="col-md-3 a">
+                11-12
+            </div>
+        </div>
+    </div>
+<!--两个列交换位置，push向右移动，pull向左移动-->
+    两个列交换位置，push向右移动，pull向左移动
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 col-md-push-3 a">右边push</div>
+            <div class="col-md-3 col-md-pull-9 a">左边pull</div>
+        </div>
+    </div>
+</body>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</html>
